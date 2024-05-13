@@ -1,0 +1,44 @@
+.sign-up-box {
+  background-color: rgb(255, 255, 255);
+  padding: 30px !important;
+  width: 500px;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-2#logo {
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px rgb(215, 211, 211);
+}
+p.email {
+  color: grey;
+}
+
+a.sign-in {
+  text-decoration: none;
+}
+.container-logo {
+  gap: 30px !important;
+}
+
+body {
+  background-image: url(./images/Leaf-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.form-control {
+  border: 0;
+  background-color: transparent;
+  border-bottom: 2px solid rgb(194, 180, 180);
+  border-radius: 0px;
+  box-shadow: none !important;
+}
