@@ -1,0 +1,53 @@
+body {
+  height: 100vh;
+  background-image: url(./images/Leaf-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo {
+  margin-top: 100px;
+}
+a {
+  text-decoration: none !important;
+}
+p.user {
+  font-size: large;
+}
+
+.form-control#floatingInput {
+  border: 0;
+  background-color: transparent;
+  border-bottom: 2px solid blue;
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+.btn {
+  float: right;
+  border-radius: 20px !important;
+  display: block !important;
+}
+
+.google-logo {
+  margin-top: 60px !important;
+}
+
+#or-sign-in {
+  background-color: transparent !important;
+}
+/* .form-control#floatingInput{
+    background-color: transparent !important;
+}
+ */
+
+/*
+-email ko background
+-continue button inline behavour
+-a tag use garda img ra text ko block behaviour
+-container height
+*/
